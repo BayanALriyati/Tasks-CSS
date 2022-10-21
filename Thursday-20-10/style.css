@@ -1,0 +1,50 @@
+.one {
+    width: 500px;
+    height: 300px;
+    border:  1px solid black ;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.two {
+    width: 500px;
+    height: 300px;
+    border:  1px dashed black ;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#dashed {
+    width: 500px;
+    height: 200px;
+    border: 1px dashed red;
+}
+.orange {
+    background-color: orange;
+}
+.yallow {
+    background-color: yellow;
+}
+.purple {
+    color: purple ;
+}
+.blue {
+    color: blue;
+}
+.underline {
+    color:orange;
+    text-decoration-line:underline ; 
+    text-decoration-color: orange;
+}
+#back {
+    background-color: yellow;
+}
+.under {
+    color:red;
+    text-decoration-line:underline ; 
+    text-decoration-color: red;
+}
+.cblue {
+    color: blue;
+}
+
+
+
