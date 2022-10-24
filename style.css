@@ -59,6 +59,16 @@ img {
     top: 20px;
     right:20px;
 }
+.border {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 100px;
+    border-style: dashed; 
+    background-color: bisque ;
+    margin: 50px 50px;
+    padding: 5px;
+
+}
 
 
 
