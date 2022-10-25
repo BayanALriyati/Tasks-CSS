@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+    <style>
+        * {
+            margin: 0%;
+        }
+        body {
+            border: 2px solid black;
+            width: 800px;
+            height: 3000px;
+            padding: 1px;
+            margin: 0PX 30%  0px 30%;
+        }
+        #flex {
+            width: 100%;
+            height: 40px;
+            display: flex; 
+            padding: 2px;
+           
+        }
+        #flex1 {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: start 
+        }
+        #flex2 {
+            width: 100%;
+            height: 50px;
+            display: flex; 
+            justify-content: end;
+            padding: 15px 0px 0px 0px;
+
+        }
+        #font {
+            font-family:serif;
+            font-size: 15px ;
+            font-style: italic;
+            font-weight: bolder;
+            padding: 5px 0px 0px;
+        }
+        #font2 {
+            font-size: 5px;
+            color:  rgb(3, 113, 36);
+            font-weight:lighter ;
+            padding: 3px 1px 1px 1px;
+        }
+        .space {
+            padding: 0px 1px;
+        }
+        img {
+            display: block;
+        }
+        #bold {
+            font-weight: bolder;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            text-shadow: 2px 2px 2px rgb(173, 92, 92);
+            letter-spacing: -2px;
+        }
+        #size {
+            font-size: 15px;
+            color:  rgb(3, 113, 36);
+            font-weight:lighter ;
+            padding: 3px 1px 15px 1px;
+        }
+        .paragraph {
+            font-size: 15px;
+            color:  rgb(3, 113, 36);
+            padding: 3px 1px 15px 1px;
+        }
+        #grid { 
+            border: 2px ;
+            background-color: antiquewhite;
+            box-shadow: 10px 10px rosybrown;
+            display: grid ;
+            gap: 10px 1px;
+            grid-template-columns: auto auto ;
+            
+            
+        }
+        .padding {
+            padding: 20px 20px 30px 20px;
+            
+        }
+        #flex3{
+            width: 100%;
+            height: 40px;
+            display:flex;
+            padding: 2px;
+           
+        }
+        .one{
+            border: 1px solid black;
+            background-color: brown;
+            padding: 10px 10px 5px;
+            margin: 50px 50px;
+        } 
+    </style>
+</head>
+<body>
+<div id="flex">
+    <div id="flex1"> 
+    <div><img src="Image/knife-fork.jpg" alt="knife-fork" width="30px" height="30px"></div>
+    <div>
+    <p id="font">Delicious</p>
+    <p id="font2">The best food blog in the web</p>
+    </div>
+    </div>
+    <div id="flex2">
+    <div><img src="Image/facebook.jpg" alt="knife-fork" width="15px" height="15px" class="space"></div>
+    <div><img src="Image/Twitter.jpg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    <div><img src="Image/Google.jpg" alt="knife-fork"width="15px" height="15px"class="space"></div>
+    <div><img src="Image/OIP (2).jpeg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    <div><img src="Image/p.jpg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    <div><img src="Image/wifi.jpg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    <div><img src="Image/massege.jpg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    <div><img src="Image/WhatsApp Image 2022-10-24 at 20.11.22.jpg" alt="knife-fork" width="15px" height="15px"class="space"></div>
+    </div>
+</div>
+    <hr>
+    <p id="bold">Chocolate Pizza</p>
+    <p id="size" >posted on 1/7/2021/Dessarts</p>
+    <img src="Image/cake.jpg" alt="cake" width="800px" height="400px">
+<p class="paragraph">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga adipisci, vitae perspiciatis placeat, itaque ducimus molestias expedita debitis vel explicabo necessitatibus nisi. Saepe expedita fugiat ratione recusandae, mollitia repudiandae totam harum, aspernatur aliquid minus, esse porro! Laborum animi, ad similique dolorem perspiciatis quidem architecto veniam doloremque, eum delectus expedita sunt.
+</p>
+<p class="paragraph">
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source
+</p>
+<p class="paragraph">
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</p>
+<div class="padding">   
+<div id="grid" >
+    <div>
+        <input type="checkbox" name="vehiclel" value="milk" >
+        <label> 1 1/2 cups milk</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="cream" >
+        <label> 1 1/2 cups heavy cream</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="salt" >
+        <label> 1/2 tsb pink salt</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="figs" >
+        <label> 1 lbs block figs</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="suger" >
+        <label> 1/2 cupbrown suger</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="butter" >
+        <label> 2 tbsp butter</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="juiced" >
+        <label> 1 lemon juiced</label>
+    </div>
+    <div>
+        <input type="checkbox" name="vehiclel" value="egg" >
+        <label> 3 eggyalks</label>
+    </div>
+</div> 
+</div>
+<hr>
+<div id="flex3">
+<div>
+    <div><img src="./Image/oie_trim_image.png" alt="cake"></div>
+    <div>
+    <p>Bayan Alriyati</p> 
+    </div>
+    <div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, officiis</p>
+    </div>
+</div>
+<div>
+    <buttom class="one">SHARE RECIP</buttom>
+</div> 
+</div>
+<div>
+    <div> <img src="Image/knife-fork.jpg" alt="knife-fork"></div>
+    <p> </p>
+</div>
+
+    
+</body>
+</html>
