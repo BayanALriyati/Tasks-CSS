@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+</head>
+<body>
+    <style>
+        body{
+            
+            background-color: rgb(228, 122, 228); 
+            margin: 100px 100px 100px 100px;
+        }
+        .media {
+             
+             display: grid ;
+             grid-template-columns: 300px 300px 300px;
+             grid-template-rows:200px 200px 200px ;
+             grid-gap: 20px 20px;
+         
+         }
+         @media screen and (max-width: 896px) {
+            body {
+             background-color: #008000;
+                }
+                .media {
+                    display: grid ;
+                   grid-template-columns: 300px ;
+                }
+                p {
+                    color: black;
+                }
+}
+        
+     </style>
+
+</head>
+<body>
+<h1>BAYAN ALRIYATI</h1>
+<div> 
+    <p style="color: blue;">>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque illum, deleniti, fugit explicabo perferendis nostrum cupiditate, excepturi ab tempora vel ipsum quae voluptate quisquam praesentium repudiandae minus! Labore adipisci quos veniam corporis voluptas corrupti, dolores incidunt placeat soluta enim architecto ducimus eveniet modi. Repellat quasi accusamus provident enim omnis cupiditate. Odit, cum minima nisi obcaecati cumque tenetur sequi necessitatibus perspiciatis laboriosam ullam tempora molestias possimus numquam? Veniam quidem ad maxime pariatur magni et autem laborum, illum nulla doloribus laboriosam commodi dolorem aut assumenda est, cupiditate iste, velit ipsa ducimus porro.
+    </p>
+</div>
+<div class="media">
+   
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div>
+    <div class="media1"><img src="../Image/cake.jpg" alt="cake" weight="200px" height="200px" ></div> 
+</div>
+</body>
+</html>
